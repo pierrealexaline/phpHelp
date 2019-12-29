@@ -53,7 +53,7 @@ from [Routing](https://symfony.com/doc/current/routing.html)
         }
     }
 
-## Matching HTTP Methods - example API usages
+### Matching HTTP Methods - example API usages
 
     // src/Controller/BlogApiController.php
     namespace App\Controller;
@@ -80,7 +80,7 @@ from [Routing](https://symfony.com/doc/current/routing.html)
     }
 
 
-## Matching Expressions with condition option
+### Matching Expressions with condition option
 
 
     // src/Controller/DefaultController.php
@@ -108,7 +108,7 @@ from [Routing](https://symfony.com/doc/current/routing.html)
     }
 
 
-## Debugging Routes
+### Debugging Routes
 
     php bin/console debug:router
     php bin/console debug:router app_lucky_number
@@ -384,7 +384,6 @@ from [Routing](https://symfony.com/doc/current/routing.html)
 
 ### Redirecting to URLs and Routes Directly from a Route
 
-
     // config/routes.php
     use App\Controller\DefaultController;
     use Symfony\Bundle\FrameworkBundle\Controller\RedirectController;
@@ -419,8 +418,6 @@ from [Routing](https://symfony.com/doc/current/routing.html)
             ])
         ;
     };
-
-
 
 ### Redirecting URLs with Trailing Slashes
 
@@ -482,6 +479,9 @@ Route URL 	If the requested URL is /foo 	If the requested URL is /foo/
             ->controller([CompanyController::class, 'about'])
         ;
     };
+## Generating URLs
+
+### Generating URLs in Controllers
 
     // config/routes/annotations.php
     use Symfony\Component\Routing\Loader\Configurator\RoutingConfigurator;
@@ -534,7 +534,7 @@ Route URL 	If the requested URL is /foo 	If the requested URL is /foo/
     // the 'blog' route only defines the 'page' parameter; the generated URL is:
     // /blog/2?category=Symfony
 
-## Generating URLs in Services
+### Generating URLs in Services
 
     // src/Service/SomeService.php
     namespace App\Service;
@@ -573,17 +573,17 @@ Route URL 	If the requested URL is /foo 	If the requested URL is /foo/
     }
 
 
-## Generating URLs in Templates
+### Generating URLs in Templates
 
 [Urls generating in template](https://symfony.com/doc/current/templates.html#templates-link-to-pages)
 
-## Generating URLs in JavaScript
+### Generating URLs in JavaScript
 
     <script>
         const route = "{{ path('blog_show', {slug: 'my-blog-post'})|escape('js') }}";
     </script>
 
-## Generating URLs in Commands
+### Generating URLs in Commands
 
     // config/services.php
     $container->setParameter('router.request_context.host', 'example.org');
@@ -635,7 +635,7 @@ Route URL 	If the requested URL is /foo 	If the requested URL is /foo/
         }
     }
 
-## Checking if a Route Exists
+### Checking if a Route Exists
 
     use Symfony\Component\Routing\Exception\RouteNotFoundException;
 
@@ -646,7 +646,7 @@ Route URL 	If the requested URL is /foo 	If the requested URL is /foo/
         // the route is not defined...
     }
 
-## Forcing HTTPS on Generated URLs
+### Forcing HTTPS on Generated URLs
 
     // config/services.php
     $container->setParameter('router.request_context.scheme', 'https');
@@ -707,4 +707,4 @@ This means that you're trying to generate a URL to the blog_show route but you a
 
 
 [How to Create a custom Route Loader](https://symfony.com/doc/current/routing/custom_route_loader.html) 
-(Looking up Routes from a Database: Symfony CMF DynamicRouter)[https://symfony.com/doc/current/routing/routing_from_database.html]
+[Looking up Routes from a Database: Symfony CMF DynamicRouter](https://symfony.com/doc/current/routing/routing_from_database.html)
