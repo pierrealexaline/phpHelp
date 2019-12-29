@@ -706,6 +706,5 @@ This means that you're trying to generate a URL to the blog_show route but you a
     // {{ path('blog_show', {slug: 'slug-value'}) }}
 
 
-[How to Create a custom Route Loader](https://symfony.com/doc/current/routing/custom_route_loader.html) 
-
-[Looking up Routes from a Database: Symfony CMF DynamicRouter](https://symfony.com/doc/current/routing/routing_from_database.html)
+* [How to Create a custom Route Loader](https://symfony.com/doc/current/routing/custom_route_loader.html) 
+* [Looking up Routes from a Database: Symfony CMF DynamicRouter](https://symfony.com/doc/current/routing/routing_from_database.html)
