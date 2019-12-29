@@ -126,10 +126,10 @@ referring to the
 
 When using the foo.bar notation, Twig tries to get the value of the variable in the following order:
 
-* 1 $foo['bar'] (array and element);
-* 1 $foo->bar (object and public property);
-* 1 $foo->bar() (object and public method);
-* 1 $foo->getBar() (object and getter method);
-* 1 $foo->isBar() (object and isser method);
-* 1 $foo->hasBar() (object and hasser method);
-* 1 If none of the above exists, use null.
+1. $foo['bar'] (array and element);
+2. $foo->bar (object and public property);
+3. $foo->bar() (object and public method);
+4. $foo->getBar() (object and getter method);
+5. $foo->isBar() (object and isser method);
+6. $foo->hasBar() (object and hasser method);
+7. If none of the above exists, use null.
