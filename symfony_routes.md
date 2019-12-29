@@ -4,33 +4,33 @@ from [Routing](https://symfony.com/doc/current/routing.html)
 
 
 * Creating Routes
- * Creating Routes as Annotations
- * Creating Routes in YAML, XML or PHP Files
- * Matching HTTP Methods
- * Matching Expressions
- * Debugging Routes
+    * Creating Routes as Annotations
+    * Creating Routes in YAML, XML or PHP Files
+    * Matching HTTP Methods
+    * Matching Expressions
+    * Debugging Routes
 * Route Parameters
- * Parameters Validation
- * Optional Parameters
- * Parameter Conversion
- * Special Parameters
- * Extra Parameters
- * Slash Characters in Route Parameters
+    * Parameters Validation
+    * Optional Parameters
+    * Parameter Conversion
+    * Special Parameters
+    * Extra Parameters
+    * Slash Characters in Route Parameters
 * Route Groups and Prefixes
 * Getting the Route Name and Parameters
 * Special Routes
- * Rendering a Template Directly from a Route
- * Redirecting to URLs and Routes Directly from a Route
+    * Rendering a Template Directly from a Route
+    * Redirecting to URLs and Routes Directly from a Route
 * Sub-Domain Routing
 * Localized Routes (i18n)
 * Generating URLs
- * Generating URLs in Controllers
- * Generating URLs in Services
- * Generating URLs in Templates
- * Generating URLs in JavaScript
- * Generating URLs in Commands
- * Checking if a Route Exists
- * Forcing HTTPS on Generated URLs
+    * Generating URLs in Controllers
+    * Generating URLs in Services
+    * Generating URLs in Templates
+    * Generating URLs in JavaScript
+    * Generating URLs in Commands
+    * Checking if a Route Exists
+    * Forcing HTTPS on Generated URLs
 * Troubleshooting
 * Learn more about Routing
 
