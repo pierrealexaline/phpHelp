@@ -65,8 +65,9 @@ Available commands for the "make" namespace :
 
 ## Configuration
 
-# config/packages/dev/maker.yaml
-# create this file if you need to configure anything
+  config/packages/dev/maker.yaml
+
+create this file if you need to configure anything
 
 you can only configure the root namespace that is used to "guess" what classes you want to generate :
 
