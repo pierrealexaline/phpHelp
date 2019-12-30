@@ -26,7 +26,7 @@ Available commands for the "make" namespace :
 * **make:validator**              Creates a new validator and constraint class
 * **make:voter**                  Creates a new security voter class
 
-    php bin/console make:controller --help
+  e.g : php bin/console make:controller --help
 
 ## Example : Make controller via php console/bin
 
